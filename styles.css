@@ -1,9 +1,9 @@
 .stApp {
     background: linear-gradient(
         135deg, 
-        #020617 0%,    /* Deep Space Blue */
-        #1e1b4b 50%,   /* Royal Midnight */
-        #4c1d95 100%   /* Deep Amethyst */
+        #f0fdf4 0%,    /* Very Light Honeydew */
+        #dcfce7 50%,   /* Soft Mint Mist */
+        #fef9c3 100%   /* Pale Primrose Sun */
     );    
 
     min-height: 100vh;
@@ -11,51 +11,45 @@
 }
 
 .card {
-    /* Glassmorphism effect for a royal feel */
-    background-color: rgba(255, 255, 255, 0.03); 
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* Creamy, silk-like appearance */
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    border: 2px solid #ffffff; 
     border-radius: 20px;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10px 30px rgba(134, 239, 172, 0.2); /* Soft green glow */
     padding: 25px;
     margin-bottom: 25px;
 }
 
 h1, h2, h3 {
-    /* Platinum/Silver text for royalty */
-    color: #f8fafc; 
-    text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    /* Deep forest green for royal headers */
+    color: #064e3b; 
+    letter-spacing: 0.5px;
 }
 
 /* Metrics box */
 div[data-testid="metric-container"] {
-    background-color: #6d28d9; /* Deep Royal Purple */
-    border: 1px solid #a78bfa;
+    background-color: #f0fdf4; /* Pale leaf green */
+    border: 1.5px solid #86efac;
     border-radius: 16px;
     padding: 15px;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
 }
 
-/* Making metric text readable against dark background */
-div[data-testid="metric-container"] label, 
-div[data-testid="metric-container"] div {
-    color: #ffffff !important;
-}
-
+/* Prediction box - The 'Magic Mirror' or 'Rose Gold' element */
 .prediction-box {
     background: linear-gradient(
         135deg,
-        #f59e0b,  /* Royal Gold */
-        #b45309    /* Burnished Amber */
+        #fdf2f8,  /* Ethereal Rose */
+        #fbcfe8    /* Soft Pink Ribbon */
     );
     padding: 22px;
-    border-radius: 16px;
+    border-radius: 18px;
+    border: 1px solid #f9a8d4;
     text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    color: #ffffff; /* White text for high contrast on gold */
+    font-size: 22px;
+    font-weight: 600;
+    color: #9d174d; /* Deep Rose-Red text */
     margin-top: 15px;
-    box-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    box-shadow: 0 8px 20px rgba(251, 207, 232, 0.5);
 }

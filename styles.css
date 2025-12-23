@@ -24,7 +24,7 @@ h1, h2, h3 {
 
 /* Metrics box */
 div[data-testid="metric-container"] {
-    background-color: #c7d2fe ;
+    background-color: #4298fa ;
     border-radius: 14px;
     padding: 15px ;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
@@ -41,6 +41,6 @@ div[data-testid="metric-container"] {
     text-align: center;
     font-size: 22px;
     font-weight: bold;
-    color: #1e293b;
+    color: #080d14;
     margin-top :15px ;
 }
